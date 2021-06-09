@@ -1,0 +1,17 @@
+{
+    "name": "FormFun",
+    "description": "Make forms more fun.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": [
+                "confetti.js",
+                "content.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ]
+}
